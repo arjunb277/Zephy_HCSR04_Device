@@ -6,10 +6,10 @@ ASU ID: 1215353243
 
 Please follow the following procedure to run our application:
 
-Step 1: In the folder cse522-asgn02-Bhatnagar_A,you will find the files assgn_02.patch and Assgn02_Report.pdf.
+Step 1: In the folder you will find the files assgn_02.patch and Assgn02_Report.pdf.
 
 Step 2: Apply the patch to a new zephyr source using "patch -p4 < patch_file.patch". The previous patches are considered to be applied.
-        The patch contains only source code changes for this assognment and the previous assignment.
+        The patch contains only source code changes for this project.
 
 Step 3: Open terminal set environment variables as following:
         
@@ -57,7 +57,7 @@ completed you can dump/print the samples you want.
 
 If the sensor is unable to sense or is absent the measurement will timeout.
 
-Time out values for HCSR0 is 1 sec and for HCSR1 it is 2 secs.
+Time out values for HCSR0 is 1 sec and for HCSR1 is 2 secs.
 
 The app calls sensor_sample_fetch first and then channel_get for the selected device.
 
